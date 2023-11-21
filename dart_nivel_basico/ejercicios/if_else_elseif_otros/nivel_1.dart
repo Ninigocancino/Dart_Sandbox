@@ -44,6 +44,8 @@ void main() {
   }
   */
 
+  /*
+
   //Ejercicio 3: Evaluación de edad
 
   int edad = 18;
@@ -52,6 +54,23 @@ void main() {
     print("eres mayor de edad");
   } else {
     print("eres menor de edad");
+  }
+
+  */
+
+  //-----------------------Ejercicio 3: Determinar Número Mayor--------------------
+
+  //Escribe un programa en Dart que tome dos números como entrada y determine cuál de ellos es el mayor. Imprime un mensaje indicando el resultado.
+
+  int numero_1 = 8;
+  int numero_2 = 8;
+
+  if (numero_1 > numero_2) {
+    print("el $numero_1 es mayor que el $numero_2");
+  } else if (numero_1 < numero_2) {
+    print("el $numero_2 es mayor que el $numero_1");
+  }else{
+    print("Son iguales");
   }
 }
 
